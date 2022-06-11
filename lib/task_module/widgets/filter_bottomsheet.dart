@@ -22,8 +22,6 @@ class FilterBottomSheet extends StatelessWidget {
     "Name",
     "Name",
     "Name",
-    "Name",
-    "Name",
   ];
 
   @override
@@ -111,15 +109,6 @@ class FilterBottomSheet extends StatelessWidget {
                   onPressed: () {},
                   padding: EdgeInsets.zero,
                 ),
-                Align(
-                  alignment: Alignment.bottomRight,
-                  child: TextButton(
-                    onPressed: () {
-                      Get.back();
-                    },
-                    child: PublicText(text: "Close", textTheme: text16),
-                  ),
-                )
               ],
             )),
       ),
